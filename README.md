@@ -11,7 +11,8 @@ The objective is to classify DNA sequences containing a **TATA-box motif** (a co
 - **Evaluation**: model performance was assessed through accuracy metrics, a confusion matrix, and analysis of the most discriminative k-mers.
 
 ## Results
-- The logistic regression classifier reached an accuracy of around (depending on random initialization).  
+- The logistic regression classifier reached an accuracy of around **74%** (seed-dependent).
+- The precision–recall AUC was around **0.73**, confirming a clear separation between promoter-like and random sequences.
 - The confusion matrix confirmed a clear separation between promoter-like and random sequences.  
 - The most discriminative k-mers identified by the model correspond to the expected TATA-box motif.
 
