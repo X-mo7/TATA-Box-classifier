@@ -17,7 +17,7 @@ The objective is to classify DNA sequences containing a **TATA-box motif** (a co
 
 ## Perspectives
 This project illustrates how machine learning can capture biologically meaningful patterns in DNA sequences.  
-It also opens the way for further exploration of more advanced architectures (e.g., Transformers such as Instadeep's Nucleotide Transformers) for biological sequence analysis.
+It also opens the way for further exploration of more advanced architectures (e.g., Transformers such as Instadeep's Nucleotide Transformer) for biological sequence analysis.
 
 ## Repository structure
 - `TATA_Box_project.ipynb`: main notebook with code, explanations, and results.
