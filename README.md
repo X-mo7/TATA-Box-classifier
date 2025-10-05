@@ -8,7 +8,7 @@ The objective is to classify DNA sequences containing a **TATA-box motif** (a co
 - **Data generation**: synthetic DNA sequences were created, some embedding the canonical TATA-box motif, others being random.
 - **Feature extraction**: sequences were represented using **k-mer counts**, a common approach to capture local nucleotide patterns.
 - **Model**: a **logistic regression classifier** was trained to distinguish promoter-like sequences from random ones.
-- **Evaluation**: model performance was assessed through accuracy metrics, a confusion matrix, and analysis of the most discriminative k-mers.
+- **Evaluation**: model performance was assessed through accuracy metrics, a precision–recall curve, and analysis of the most discriminative k-mers.
 
 ## Results
 - The logistic regression classifier reached an accuracy of around **74%** (seed-dependent).
